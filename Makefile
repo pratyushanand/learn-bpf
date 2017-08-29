@@ -1,4 +1,5 @@
-TARGETS := memcpy_kprobe
+TARGETS := memcpy_kprobe 
+TARGETS += memcpy_stat
 
 # Generate file name-scheme based on TARGETS
 KERN_SOURCES = ${TARGETS:=_kern.c}
