@@ -1,0 +1,7 @@
+tags
+*.cscope
+*.swp
+*.o
+*.ll
+memcpy_kprobe
+memcpy_stat
